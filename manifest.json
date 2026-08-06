@@ -1,12 +1,12 @@
-﻿{
+{
   "manifest_version": 3,
   "name": "Auto Login",
   "version": "1.0",
-  "description": "一回目のログインボタンを自動クリック",
+  "description": "一回目のログインボタンを自動クリックしてenterでログインする拡張機能",
   "content_scripts": [
     {
       "matches": [
-        "https://kadai-moodle.kagawa-u.ac.jp/"
+        "https://kadai-moodle.kagawa-u.ac.jp/*"
       ],
       "js": ["content.js"]
     }
