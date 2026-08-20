@@ -1,4 +1,4 @@
-﻿// トップページなど、ログインページ以外にいる場合のみリンクをクリックする。
+﻿// トップページなど、ログインページ以外にいる場合のみリンクをクリックする
 if (!window.location.href.includes("/login/index.php")) {
     const loginLink = document.querySelector(
         'a[href="https://kadai-moodle.kagawa-u.ac.jp/login/index.php"]'
