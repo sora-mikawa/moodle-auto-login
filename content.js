@@ -12,7 +12,7 @@ const waitForLoginButton = () => {
 
     if (loginButton) {
         loginButton.focus();
-        console.log("ログインボタンにフォーカスしました");
+        console.log("ログインボタンにフォーカスしました.");
     } else {
         setTimeout(waitForLoginButton, 100);
     }
